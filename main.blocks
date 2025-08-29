@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="L%U^L9s#R+:`RiACb;ef">Sprite</variable></variables><block type="device_forever" id="r)J!,VU^o@;uRgW5uls?" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="vb?7x*JpBtq8I,#d=dto"><field name="i">IconNames.Square</field><next><block type="basic_show_icon" id="aFyYnU3Z6*]rA.Mo7RTr"><field name="i">IconNames.SmallSquare</field><next><block type="device_show_leds" id="UcF27i$f4`abNMook!pW"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="r{ZV,vk%$xd._fsX]*2N"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="MTV1}tx:jLU*Cp@#v)Op"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # . # # 
+        # . # . # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="t$q:g!FI_-d@)^8d}_t," x="205" y="115"><statement name="HANDLER"><block type="music_playable_play" id="O`*JaH2k8p%v00utaW4i"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="BI4G-ipsJ6/ADv,uPI)j"><value name="melody"><shadow type="melody_editor" id="~.Q|u7qjX[D{n*o9JU`I"><field name="melody">"C5 B A B A G A C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="~ZY%0wYIO5$p~_7mQGwo"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></statement></block><block type="device_forever" id="Q0(.nPte}D[vCgMGLnlm" x="209" y="269"><statement name="HANDLER"><block type="variables_set" id="IcT^+,dfzbyW?2bWPmY9"><field name="VAR" id="L%U^L9s#R+:`RiACb;ef">Sprite</field><value name="VALUE"><block type="game_create_sprite" id="paaTg8TEHQ%o(gWaq!#g"><value name="x"><shadow type="math_number" id="}h}HXY[E!50K6KS;~(#}"><field name="NUM">8</field></shadow></value><value name="y"><shadow type="math_number" id=";0),13*^4}I^I_Y|CK_m"><field name="NUM">1</field></shadow></value></block></value></block></statement></block></xml>
